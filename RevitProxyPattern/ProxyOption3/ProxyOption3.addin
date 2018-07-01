@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>ProxyOption3</Text>
+    <Description>Description for ProxyOption3</Description>
+    <Assembly>ProxyOption3.dll</Assembly>
+    <FullClassName>ProxyOption3.Command</FullClassName>
+    <ClientId>2924801F-75A9-44B7-B7BA-EB46128E83C4</ClientId>
+    <VendorId>Pedro Nunez Calzado. pnunezcalzado@gmail.com</VendorId>
+    <VendorDescription>Pedro Nunez Calzado. pnunezcalzado@gmail.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
