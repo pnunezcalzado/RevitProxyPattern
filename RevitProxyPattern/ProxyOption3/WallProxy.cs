@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProxyOption3
 {
-    public class WallProxy : ElementProxy<Wall>
+    public class WallProxy : BaseProxy<Wall>
     {
         // Example property mapping
         public WallType WallType { get { return RevitEntity.WallType; } }

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ProxyOption1
 {
-    public abstract class ElementProxy<TRevitEntity, TProxy>
+    public abstract class BaseProxy<TRevitEntity, TProxy>
         where TRevitEntity : Element
-        where TProxy : ElementProxy<TRevitEntity, TProxy>, new()
+        where TProxy : BaseProxy<TRevitEntity, TProxy>, new()
     {
         public TRevitEntity RevitEntity { get; set; }
 

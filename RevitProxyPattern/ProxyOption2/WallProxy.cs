@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProxyOption2
 {
-    public class WallProxy : ElementProxy<Wall>
+    public class WallProxy : BaseProxy<Wall>
     {
         // Operators
         public static implicit operator WallProxy(Wall wall)
